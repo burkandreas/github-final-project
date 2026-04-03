@@ -1,16 +1,10 @@
- git commit -m "footer changed"
-[bug-fix-typo bc3e212] footer changed
- Committer: Andreas Burk <andreas@vmd35886.contaboserver.net>
-Your name and email address were configured automatically based
-on your username and hostname. Please check that they are accurate.
-You can suppress this message by setting them explicitly. Run the
-following command and follow the instructions in your editor to edit
-your configuration file:
+# This is the README.md file for the **github-final-project**
 
-    git config --global --edit
+A calculator that calculates simple interest given principal, annual rate of interest and time period in years.
 
-After doing this, you may fix the identity used for this commit with:
-
-    git commit --amend --reset-author
-
- 1 file changed, 1 insertion(+), 1 deletion(-)
+Input:
+   p, principal amount
+   t, time period in years
+   r, annual rate of interest
+Output
+   simple interest = p*t*r/100
